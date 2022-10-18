@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+
+padding: 30px 0px;
+}
+.header_wraper{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+
+}
+.menue{
+
+width: 20%;
+
+}
+.menue a{
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 20px;
+    
+color: #97999b;
+    
+text-transform: capitalize;
+    
+text-decoration: none;
+    
+color: #626262;
+}
+.baner{
+
+position: relative;
+}
+.baner img{
+
+width: 100%;
+}
+.brnding{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.brnding h1{
+    
+font-family: 'Roboto', sans-serif;
+    
+color: #ffffff;
+    
+font-size: 33px;
+    
+font-weight: 700;
+}
+.brnding p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+.brnding button{font-family: 'Roboto', sans-serif;padding: 15px 30px;background-color: #fb6e52;border: 2px solid #ffffff;font-size: 18px;font-weight: 500;border-radius: 5px;color: #ffffff;}
+.service_section{
+
+width: 80%;
+
+margin: auto;
+
+padding: 50px 0;
+}
+.service{
+
+display: flex;
+
+justify-content: space-between;
+
+
+}
+.service_item{
+
+width: 31%;
+
+text-align: center;
+}
+.service_item img{
+
+}
+.service_item h2{
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#292c34;
+}
+.service_item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #97999b;
+}
+.service_heading{
+
+text-align: center;
+
+width: 48%;
+
+margin: 100px auto;
+}
+.service_heading h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: #fb6e52;
+    font-style: italic;
+    text-align: center;
+}
+.main_service{
+
+display: flex;
+
+justify-content: space-between;
+
+}
+.main_service_item{
+
+width: 31%;
+
+text-align: center;
+}
+.main_service_item img{
+
+width: 100%;
+}
+.main_service_item h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#292c34;
+    margin: 10px 0;
+}
+.main_service_item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #97999b;
+}
+.fromthe{
+
+background-color: #f9f9f9;
+
+padding: 70px 0;
+}
+    .fromthe h1{
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 25px;
+    
+color: #292c34;
+    
+text-align: center;
+    }
+    .blog{
+    
+justify-content: s;
+    
+width: 80%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+margin-top: 50px;
+    }
+    .design{
+    
+width: 45%;
+    }
+    .design img{
+    
+    width: 100%;
+    
+    
+    }
+    .design h1{
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 400;
+    
+font-size: 18px;
+    
+color: #fb6e52;
+    
+text-align: left;
+    
+padding: 15px 0;
+    }
+    .design p{
+    
+font-family: 'Roboto', sans-serif;
+    
+font-weight: 300;
+    
+font-size: 15px;
+    
+color: #97999b;
+    }
+    footer{
+        background-color:#f0f0f0;
+        padding: 20px 0;
+        background-color: #292c34;
+    }
+    .footer_wrapper{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .terms{
+        width: 35%;
+        display: flex;
+        align-items: center;
+    }
+    .terms img{
+    
+    }
+    .terms p{
+        
+font-family: 'Roboto', sans-serif;
+        
+font-weight: 300;
+        
+font-size: 13px;
+        
+color: #797c82;
+        
+margin-left: 20px;
+        
+    }
+    .terms ul{
+        display: flex;
+        list-style: none;
+    }
+    .terms ul li{
+        margin-right: 15px;
+    
+    }
+    .terms ul li a{
+        font-family: 'Playfair Display', serif;
+        text-decoration: none;
+        color: #000;
+        text-transform: capitalize;
+    
+    
+    }
+    .social_icon{
+        width: 15%;
+    }
+    .social_icon ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        
+    }
+    .social_icon ul li{
+        
+    }
+    .social_icon ul li a{
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #ffffff;
+        
+    }
